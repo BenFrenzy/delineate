@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME_PAGE</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .navbar
+        {   width: 100%;
+            height: 40px;
+            background-color: black;
+            padding: 12px 0 12px 0;
+            position: fixed;left: 0;right: 0;top: 0;bottom: 0;
+            display:flex;
+            align-items: center;
+        }
+        .navbar2
+        {   width: 100%;
+            height: 40px;
+            background-color: black;
+            padding: 12px 0 12px 0;
+            position: relative;left: 0;right: 0;top: 0;bottom: 0;
+            display:flex;
+            align-items: center;z-index: -1;
+        }
+        .lis li a{
+            text-decoration:none;
+            color: white;
+            font-size: 16px;
+            font-family: sans-serif;
+        }
+        .lis li a:hover{
+            text-decoration:none;
+            color: red;
+            font-size: 16px;
+            font-family: sans-serif;
+        }
+
+        .na ul {
+            display:flex;
+            gap: 40px;
+            margin:0;
+        }
+        .content
+        {   height: 700px;width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            background-image: url('../../assests/images/graph.jpg');
+            background-size: 100%  100%;
+            
+        }
+        
+        .r_box
+        {
+            height:83px ;width:536px ;border-radius: 55.5px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .te{
+            color: white;
+            text-decoration: none;
+        }
+        .te:hover
+        {
+            color: red;
+        }
+        .foot{
+            background-color: black;
+            height: 100%;
+            padding-bottom: 1px;
+            padding-top: 1px;
+        }
+        #fi
+        {
+            text-decoration: none;
+            color: white;
+
+        }
+        .fu p
+        {
+            color: white;
+            list-style: none;
+            text-decoration:underline;
+        }
+        .ok
+        {
+            position: relative;
+            left:15px;text-decoration: none;
+        }
+        #fi:hover
+        {
+            position: relative;
+            left:15px;text-decoration: none;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="na">
+            <ul class="lis">
+                <li><a href="../../home.html">HOME</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+            </ul>
+            </div>
+        </nav>
+        <nav class="navbar2">
+            <div class="na">
+            <ul class="lis">
+                <li><a href="./home.html">HOME</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+            </ul>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="r_box">
+                <a href="https://www.youtube.com/watch?v=ssC8O2kWWWA&list=PLW-zSkCnZ-gBA67ZtNUjIMfc_kwLo3MET" class="te">THEORY</a>
+            </div>
+            <div class="r_box">
+                <a href="https://www.youtube.com/watch?v=vd1vRpoWC3M&list=PLW-zSkCnZ-gCq0DjkzY-YapCBEk0lA6lR" class="te">ILLUSTRATOR TUTORIALS</a>
+            </div>
+            <div class="r_box">
+                <a href="./you.html" class="te">SOME GOOD YOUTUBE CHANNELS</a>
+            </div>
+        </div>
+        <div class="foot">
+            <ul class="fu"><p>Explore</p>
+                <li class="ok"><a href="../../deres.html" id="fi">Delineate resourses</a></li>
+                <li class="ok"><a href="https://expensive-plantain-3a1.notion.site/Delineate-Design-Society-ed1059aef2fc4ff6be228bd987e31aec?pvs=4" id="fi">Delineate prompt</a></li>
+                <li class="ok"><a href="../../mywork.html" id="fi">My work</a></li>
+            </ul>
+        </div>
+    </header>
+</body>
+</html>
